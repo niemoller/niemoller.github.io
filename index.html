@@ -2,123 +2,40 @@
 <html lang="en">
 
 <head>
-    <title>Light | CSS only web components with no JavaScript</title>
+    <title>Take Action</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Ultra Lightweight CSS Framework - 3kb Only.">
 
     <!-- Light CSS -->
     <link rel="stylesheet" href="light.min.css">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav>
-        <div class="container">
-            <ul>
-                <li class="brand"><a href="demo">Website Name</a></li>
-            </ul>
-            <ul class="navbar-right">
-                <li><a class="btn-light" href="#open-menu"><span class="dropnav-button"></span></a></li>
-                <li><a class="btn-light" href="#dropnav"><span class="dropnav-button"></span></a></li>
-            </ul>
-        </div>
-    </nav>
-    <nav id="dropnav" class="dropnav">
-        <div class="nav-container">
-            <ul>
-                <li><a href="/light/">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <div class="image-cover" style="background: url(https://source.unsplash.com/random/1400x800)">
-        <div class="image-overlay-dark">
-            <div class="caption-middle">
-                <h2>Countdown to 2018</h2>
-                <p>255 days left</p>
-            </div>
-            <div class="caption-bottom">
-                <div class="container">
-                    Combine with .caption-bottom
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <h2 class="long-header">Events</h2>
-                <p class="text-justify">Lorem ipsum morbi euismod faucibus orci, quis tristique sapien scelerisque id. Curabitur molestie sapien eu justo molestie placerat. Cras interdum erat ut ligula fermentum ornare. Sed eu purus fringilla, convallis erat sit amet, mattis sapien. Nunc fringilla vehicula sapien, a imperdiet purus porta vel. Phasellus dictum lorem vel ligula imperdiet, at rutrum orci imperdiet. Sed ipsum magna, aliquam non mauris nec, dictum molestie ligula. <span class="label">Featured</span></p>
-
-                <a class="btn-dark" href="#open-modal">Open Modal</a>
-            </div>
-            <div class="col-6">
-                <h2 class="long-header">News</h2>
-
-                <p class="text-justify">Lorem ipsum morbi euismod faucibus orci, quis tristique sapien scelerisque id. Curabitur molestie sapien eu justo molestie placerat. Cras interdum erat ut ligula fermentum ornare. Sed eu purus fringilla, convallis erat sit amet, mattis sapien. Nunc fringilla vehicula sapien, a imperdiet purus porta vel. Phasellus dictum lorem vel ligula imperdiet, at rutrum orci imperdiet. Sed ipsum magna, aliquam non mauris nec, dictum molestie ligula. <span class="label">Featured</span></p>
-
-                <a class="btn-action" href="#">Read More &raquo;</a>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-6">
-                <h2 class="long-header">Promotions</h2>
-                <p class="text-justify">Lorem ipsum morbi euismod faucibus orci, quis tristique sapien scelerisque id. Curabitur molestie sapien eu justo molestie placerat. Cras interdum erat ut ligula fermentum ornare. Sed eu purus fringilla, convallis erat sit amet, mattis sapien. Nunc fringilla vehicula sapien, a imperdiet purus porta vel. Phasellus dictum lorem vel ligula imperdiet, at rutrum orci imperdiet. Sed ipsum magna, aliquam non mauris nec, dictum molestie ligula. <span class="label">Featured</span></p>
-
-                <a class="btn-action" href="#">Read More &raquo;</a>
-            </div>
-            <div class="col-6">
-                <h2 class="long-header">More</h2>
-
-                <p class="text-justify">Lorem ipsum morbi euismod faucibus orci, quis tristique sapien scelerisque id. Curabitur molestie sapien eu justo molestie placerat. Cras interdum erat ut ligula fermentum ornare. Sed eu purus fringilla, convallis erat sit amet, mattis sapien. Nunc fringilla vehicula sapien, a imperdiet purus porta vel. Phasellus dictum lorem vel ligula imperdiet, at rutrum orci imperdiet. Sed ipsum magna, aliquam non mauris nec, dictum molestie ligula. <span class="label">Featured</span></p>
-
-                <a class="btn-action" href="#">Read More &raquo;</a>
-            </div>
-        </div>
-    </div>
-
-    <footer class="bg-dark">
-        <div class="container">
-            Copyright &copy; 2017 Light.
-        </div>
-    </footer>
-
-    <!-- Menu Modal Demo -->
-    <div id="open-menu" class="modal">
-        <a href="#dismiss" class="dismissal">X</a>
-
-        <div class="container">
-            <div class="middle wide">
-                <div class="row">
-                    <div class="col-4">
-                        <a class="menu-link" href="#menu">About</a>
-                    </div>
-                    <div class="col-4">
-                        <a class="menu-link" href="#menu">Products</a>
-                    </div>
-                    <div class="col-4">
-                        <a class="menu-link" href="#menu">Contact</a>
-                    </div>
-                </div>
-                <p class="text-center">This is a menu demo.</p>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Modal Demo -->
-    <div id="open-modal" class="modal">
-        <a href="#dismiss" class="dismissal">X</a>
-        <h4>Modal Header</h4>
-        <p>Lorem ipsum morbi euismod faucibus orci, quis tristique sapien scelerisque id. Curabitur molestie sapien eu justo molestie placerat. Cras interdum erat ut ligula fermentum ornare. Sed eu purus fringilla, convallis erat sit amet, mattis sapien. Nunc fringilla vehicula sapien, a imperdiet purus porta vel. Phasellus dictum lorem vel ligula imperdiet, at rutrum orci imperdiet. Sed ipsum magna, aliquam non mauris nec, dictum molestie ligula.</p>
-        <a class="btn-dark" href="#dismiss">Close Modal</a>
+    <div>
+        <p>Trump's martinets of misinformation and lies have stated repeatedly that he will not
+            release his tax returns, ever, because "nobody cares" except the media.</p>
+        <p>We care. Let's do more than say so on social media.</p>
+        <p>This man must disclose his personal finances, including all investments, monetary, and
+            corporate interests, and he must do it now.</p>
+        <p>Here is clear, easy action to take.</p>
+        <p>If you want to support Senator Warren's request to audit President Trump's finances for
+            conflicts of interest, the person who answered the phone at the Comptroller General of
+            the Government Accountability Office said the most effective way to be sure my support
+            counted was to email two administrators, Katherine Siggerud and Timothy Minnelli.</p>
+        <p>Their email addresses are:<br/>
+            siggerudk@gao.gov<br/>
+            minellit@gao.gov</p>
+        <p>There is a third email address through which they're tracking people who are urging support 
+            for the audit: congrel@gao.gov</p>
+        <p>Or, you can send ONE email addressed to: siggerudk@gao.gov, minellit@gao.gov, congrel@gao.gov</p>
+        <p><b>Subject line:</b> Re: Audit for President Trump's financial concerns</p>
+        <p>Dear Ms. Siggerud and Mr. Minnelli,<br />
+            I’m writing in support of Senator Elizabeth Warren's request for an audit of President <br/>
+            Trump's finances, to prohibit conflicts of interest that would prevent him from carrying <br/>
+            out the responsibilities of the office without corrupt influence.<br/><br/>
+            Sincerely,<br/>
+        </p>
     </div>
 
     <!-- Google Analytics -->
