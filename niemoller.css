@@ -1,1 +1,6 @@
-body { margin: 1 em; }
+body { margin: 2em; }
+.inset {margin: 1em;
+    background-color: #eee;
+    padding: 1em;
+    border-radius: 1em;
+}
